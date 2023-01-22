@@ -1,0 +1,395 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../static/assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../../../static/assets/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Student</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="../../../static/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../../static/assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../../../static/assets/css/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-image="../../static/assets/img/sidebar-5.jpg">
+            <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+            {% include 'student/includes/sidebar.html' %}
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            {% include 'student/includes/navbar.html' %}
+            <!-- End Navbar -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card strpied-tabled-with-hover">
+                                <div class="card-header ">
+                                    <h4 class="card-title">Training Programme</h4>
+                                    <p class="card-category">level 3</p>
+
+                                <div class="card-body table-full-width table-responsive">
+                                    <table class="table table-hover table-striped">
+                                        <thead>
+                                            <th>English</th>
+                                            <th>Swahili</th>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <td>A</td>
+                                                <td>A</td>
+                                                <td class="text-right">
+                                                  <audio id="a" src="../../../static/A.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('a').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                             </tr>
+                                             <tr>
+                                                <td>B</td>
+                                                <td>B</td>
+                                                <td class="text-right">
+                                                  <audio id="b" src="../../../static/Be.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('b').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                             </tr>
+
+                                            <tr>
+                                                <td>C</td>
+                                                <td>C</td>
+                                                <td class="text-right">
+                                                     <audio id="c" src="../../../static/Ch.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('c').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                        <tr>
+                                                <td>D</td>
+                                                <td>D</td>
+                                                <td class="text-right">
+                                                   <audio id="d" src="../../../static/Dee.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('d').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>E</td>
+                                                <td>E</td>
+                                                <td class="text-right">
+                                                   <audio id="e" src="../../../static/E.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('e').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                 </td>
+                                                </tr>
+                                               <tr>
+                                                <td>F</td>
+                                                <td>F</td>
+                                                <td class="text-right">
+
+                                                 <audio id="f" src="../../../static/Fee.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('f').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>G</td>
+                                                <td>G</td>
+                                                <td class="text-right">
+
+                                                  <audio id="g" src="../../../static/Ge.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('g').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                             <tr>
+                                                <td>H</td>
+                                                <td>H</td>
+                                                <td class="text-right">
+
+                                                      <audio id="h" src="../../../static/He.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('h').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>I</td>
+                                                <td>I</td>
+                                                <td class="text-right">
+
+                                                          <audio id="i" src="../../../static/I.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('i').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                                <td>J</td>
+                                                <td>J</td>
+                                                <td class="text-right">
+
+                                                              <audio id="j" src="../../../static/Je.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('j').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>K</td>
+                                                <td>K</td>
+                                                <td class="text-right">
+                                                   <audio id="k" src="../../../static/Ke.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('k').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                                <td>L</td>
+                                                <td>L</td>
+                                                <td class="text-right">
+
+                                                                   <audio id="l" src="../../../static/Le.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('l').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>M</td>
+                                                <td>M</td>
+                                                <td class="text-right">
+
+                                                                      <audio id="m" src="../../../static/Mee.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('m').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>N</td>
+                                                <td>N</td>
+                                                <td class="text-right">
+
+                                                                           <audio id="n" src="../../../static/Ne.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('n').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>O</td>
+                                                <td>O</td>
+                                                <td class="text-right">
+
+                                             <audio id="o" src="../../../static/O.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('o').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                                <td>P</td>
+                                                <td>P</td>
+                                                <td class="text-right">
+
+                                          <audio id="p" src="../../../static/Pe.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('p').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>Q</td>
+                                                <td>Q</td>
+                                                <td class="text-right">
+
+                                       <audio id="q" src="../../../static/Q.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('q').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                                <td>R</td>
+                                                <td>R</td>
+                                                <td class="text-right">
+
+                                            <audio id="r" src="../../../static/Re.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('r').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>S</td>
+                                                <td>S</td>
+                                                <td class="text-right">
+
+                                             <audio id="s" src="../../../static/Se.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('s').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                              <tr>
+                                                <td>T</td>
+                                                <td>T</td>
+                                                <td class="text-right">
+
+                                          <audio id="t" src="../../../static/Te.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('t').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>U</td>
+                                                <td>U</td>
+                                                <td class="text-right">
+
+                                            <audio id="u" src="../../../static/U.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('u').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                                <td>V</td>
+                                                <td>V</td>
+                                                <td class="text-right">
+
+                                                <audio id="v" src="../../../static/Ve.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('v').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>W</td>
+                                                <td>W</td>
+                                                <td class="text-right">
+
+                                                                                                                                                                                    <audio id="w" src="../../../static/We.m4a"onended="dstop();"></audio>
+                                                  <audio id="w" src="../../../static/We.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('w').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                                <td>X</td>
+                                                <td>X</td>
+                                                <td class="text-right">
+
+                                                <audio id="x" src="../../../static/X.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('x').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                         <tr>
+                                                <td>Y</td>
+                                                <td>Y</td>
+                                                <td class="text-right">
+
+                                            <audio id="y" src="../../../static/Ye.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('y').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+                                                                                <tr>
+                                                <td>Z</td>
+                                                <td>Z</td>
+                                                <td class="text-right">
+
+                                            <audio id="z" src="../../../static/Ze.m4a"></audio>
+                                                  <div>
+
+                                                       <i onclick="document.getElementById('z').play()" class="fa fa-play-circle-o" style="font-size:35px;"></i>
+                                                  </div>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<!--   Core JS Files   -->
+<script src="../../../static/js/audio.js"></script>
+<script src="../../../static/assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="../../../static/assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="../../../static/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="../../../static/assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!--  Chartist Plugin  -->
+<script src="../../../static/assets/js/plugins/chartist.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="../../../static/assets/js/plugins/bootstrap-notify.js"></script>
+<!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
+<script src="../../../static/assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
+<!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+<script src="../../../static/assets/js/demo.js"></script>
+
+</html>
